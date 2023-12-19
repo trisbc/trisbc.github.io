@@ -3273,6 +3273,86 @@
 
 		}
 
+
+
+/* BannerSmall */
+
+#bannerSmall {
+	background-image: url("images/overlay.jpg"), -moz-linear-gradient(45deg, #009d9a 0%, #a858a0 100%);
+	background-image: url("images/overlay.jpg"), -webkit-linear-gradient(45deg, #009d9a 0%, #a858a0 100%);
+	background-image: url("images/overlay.jpg"), -ms-linear-gradient(45deg, #009d9a 0%, #a858a0 100%);
+	background-image: url("images/overlay.jpg"), linear-gradient(45deg, #009d9a 0%, #a858a0 100%);
+	background-size: 100px 100px, cover;
+	color: rgba(255, 255, 255, 0.5);
+	padding: 1em 0 1em;
+}
+
+	#bannerSmall h2 {
+		font-size: 2.5em;
+		line-height: 1.4;
+		margin-bottom: 0;
+		color: #fff;
+	}
+
+	#bannerSmall p {
+		font-size: 1.15em;
+		font-weight: bold;
+		line-height: 1.5em;
+		margin-bottom: 1.5em;
+	}
+
+	#bannerSmall > .inner {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 70em;
+		width: 100%;
+	}
+
+	@media screen and (max-width: 1366px) {
+
+		#bannerSmall {
+			padding: 10em 2.5em 3em;
+		}
+
+			#bannerSmall h2 {
+				font-size: 2em;
+			}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#bannerSmall {
+			padding: 10em 2em 2em;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#bannerSmall {
+			padding: 8em 2em 2em;
+		}
+
+			#bannerSmall h2 {
+				font-size: 1.75em;
+			}
+
+			#bannerSmall p {
+				font-size: 1.1em;
+			}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		#bannerSmall {
+			padding: 8em 2em 2em;
+		}
+
+	}
+
+
 /* Main */
 
 	#main {
