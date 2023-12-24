@@ -25,7 +25,7 @@
 	--pink: #D60270;
 	--lavendar: #a858a0;
 	--dark-lavendar: #341b32;
-
+	--grey: #2c2c2c;
 }
 
 
@@ -1459,8 +1459,9 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #00BC8A;
-			color: #bfeee1;
+			background-color: var(--grey);
+			color: white;
+			margin-bottom: 0em;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -1647,15 +1648,15 @@
 			}
 
 			.wrapper.style1 ul.checklist li:before {
-				color: #00BC8A;
+				color: var(--lavendar);
 			}
 
 			.wrapper.style1 ul.contact li:before {
-				color: #00BC8A;
+				color: var(--lavendar);
 			}
 
 			.wrapper.style1 header p {
-				color: #99e4d0;
+				color: white;
 			}
 
 			.wrapper.style1 table tbody tr {
@@ -1973,7 +1974,7 @@
 		background-image: url("images/overlay.jpg"), linear-gradient(45deg, var(--blue) 0%, var(--lavendar) 70%);
 		background-size: 100px 100px, cover;
 		color: rgba(255, 255, 255, 0.5);
-		padding: 2em 0 2em;
+		padding: 1em 0 1em;
 	}
 
 		#banner h2 {
